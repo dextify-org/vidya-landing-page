@@ -1,4 +1,6 @@
+import Navbar from "./components/Navbar";
 import ScreenshotCarousel from "./components/ScreenshotCarousel";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -10,15 +12,8 @@ export default function Home() {
         <div className="circle8"></div>
       </div>
       <div className="container">
-        <div className="nav-bar">
-          <div className="popping-text">VIDYA</div>
-          <div className="nav-items">
-            <div className="nav-item">Documentation</div>
-            <div className="nav-item">Downloads</div>
-            <div className="nav-item">About</div>
-            <div className="nav-item">Contact</div>
-          </div>
-        </div>
+        <Navbar />
+
         <div className="hero-section">
           <div className="hero-content">
             <div className="hero-title">
@@ -29,7 +24,9 @@ export default function Home() {
             </div>
             <div className="hero-buttons">
               <button className="demo-button">Demo</button>
-              <button className="download-button">Download</button>
+              <Link href="/downloads" className="download-button">
+                Download
+              </Link>
             </div>
           </div>
         </div>
@@ -47,7 +44,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="platform-section">
+        <div className="platform-section-home">
           <div className="section-content">
             <h2 className="section-title">Available Everywhere</h2>
             <div className="platform-categories">
@@ -117,8 +114,19 @@ export default function Home() {
           <div className="section-content">
             <h2 className="section-title">Built by DEXTIFY</h2>
             <div className="dextify-logo-section">
-              <img src="/Monitor.svg" alt="DEXTIFY" className="dextify-logo" />
-              <div className="dextify-text">DEXTIFY</div>
+              <a
+                href="https://dextify.org"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="dextify-link"
+              >
+                <img
+                  src="/Monitor.svg"
+                  alt="DEXTIFY"
+                  className="dextify-logo"
+                />
+                <div className="dextify-text">DEXTIFY</div>
+              </a>
             </div>
             <p className="section-text">
               DEXTIFY is a software company that focuses on privacy, creating
@@ -171,6 +179,87 @@ export default function Home() {
                     ecosystem of free educational tools for everyone.
                   </p>
                 </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* Footer */}
+        <div className="footer-section">
+          <div className="section-content">
+            <div className="footer-content">
+              <div className="footer-brand">
+                <div className="footer-logo">VIDYA</div>
+                <p className="footer-description">
+                  A Media Server for video lectures - Organize, track, and learn
+                  from your educational content.
+                </p>
+              </div>
+
+              <div className="footer-links">
+                <div className="footer-column">
+                  <h4 className="footer-title">Product</h4>
+                  <a href="/downloads" className="footer-link">
+                    Downloads
+                  </a>
+                  <a href="/docs" className="footer-link">
+                    Documentation
+                  </a>
+                  <a href="#" className="footer-link">
+                    Features
+                  </a>
+                </div>
+
+                <div className="footer-column">
+                  <h4 className="footer-title">Company</h4>
+                  <a
+                    href="https://dextify.org"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-link"
+                  >
+                    DEXTIFY
+                  </a>
+                  <a href="#" className="footer-link">
+                    About
+                  </a>
+                  <a href="#" className="footer-link">
+                    Contact
+                  </a>
+                </div>
+
+                <div className="footer-column">
+                  <h4 className="footer-title">Community</h4>
+                  <a href="#" className="footer-link">
+                    GitHub
+                  </a>
+                  <a href="#" className="footer-link">
+                    Discord
+                  </a>
+                  <a href="#" className="footer-link">
+                    Twitter
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div className="footer-bottom">
+              <div className="footer-copyright">
+                <p>
+                  &copy; 2026 DEXTIFY. VIDYA is free software under GPL v3
+                  license.
+                </p>
+              </div>
+              <div className="footer-legal">
+                <a href="/about#privacy-policy" className="footer-link">
+                  Privacy Policy
+                </a>
+                <a href="/about#terms-of-service" className="footer-link">
+                  Terms of Service
+                </a>
+                <a href="/about#terms-of-service" className="footer-link">
+                  GPL v3 License
+                </a>
               </div>
             </div>
           </div>
