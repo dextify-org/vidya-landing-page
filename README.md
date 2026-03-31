@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VIDYA Landing Page
 
-## Getting Started
+The official marketing and documentation website for the [VIDYA Media Server](https://github.com/dextify-org/vidya) project. Built with Next.js and hosted at [vidya.media](https://vidya.media).
 
-First, run the development server:
+## About
+
+This repository contains the source code for the VIDYA landing page, including:
+
+- **Home** — Hero section, platform availability, screenshot carousel
+- **Docs** — Full installation and build documentation
+- **Downloads** — Platform-specific download links (Windows, macOS, Linux, Android, iOS)
+- **About** — Privacy policy, terms of service, and server policy
+- **Contact** — Community links, support workflow, and contribution guide
+
+## Tech Stack
+
+- [Next.js](https://nextjs.org/) — React framework (App Router)
+- CSS — Custom styling with CSS variables and responsive design
+
+## Development
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Build for production:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+## Project Structure
 
-To learn more about Next.js, take a look at the following resources:
+```
+landing-page/
+├── app/
+│   ├── page.js            # Home page
+│   ├── docs/page.js       # Documentation
+│   ├── downloads/page.js  # Downloads
+│   ├── about/page.js      # About / Legal
+│   ├── contact/page.js    # Contact / Community
+│   ├── components/
+│   │   ├── Navbar.js
+│   │   └── ScreenshotCarousel.js
+│   └── globals.css
+└── public/                # Static assets and screenshots
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Community
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **GitHub** — [github.com/dextify-org/vidya](https://github.com/dextify-org/vidya)
+- **Discord** — [discord.gg/uavHJumK5v](https://discord.gg/uavHJumK5v)
+- **Reddit** — [r/VidyaMedia](https://reddit.com/r/VidyaMedia)
+- **X / Twitter** — [@vidya_server](https://x.com/vidya_server)
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+This source code is made publicly available for transparency. You may **not** copy, redistribute, or deploy this website as your own product or service. See [LICENSE.txt](LICENSE.txt) for full terms.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© 2026 [DEXTIFY](https://dextify.org)

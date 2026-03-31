@@ -1,0 +1,45 @@
+VIDYA Landing Page — Source Available License
+
+Copyright (c) 2026 DEXTIFY (https://dextify.org)
+All rights reserved.
+
+This source code is made publicly available for transparency, personal
+learning, and community audit purposes only.
+
+PERMISSIONS
+-----------
+You are permitted to:
+  - View, read, and study this source code for personal and educational purposes.
+  - Fork this repository privately for personal learning or to submit
+    contributions back to the original project via pull request.
+
+RESTRICTIONS
+------------
+You are NOT permitted to:
+  1. Copy, reproduce, redistribute, publish, or deploy this source code or
+     any substantial portion of it as your own website, landing page, product,
+     or service — whether commercially or non-commercially.
+  2. Create and publicly deploy derivative works based on this source code
+     without explicit written permission from DEXTIFY.
+  3. Represent or imply that your project is affiliated with, endorsed by,
+     or the official VIDYA project or DEXTIFY.
+
+NOTE
+----
+The VIDYA Media Server software itself is separately licensed under the
+GNU General Public License v3.0 (GPL-3.0) and those terms apply only to
+that software — not to this landing page source code.
+
+DISCLAIMER
+----------
+THIS SOURCE CODE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS
+OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE, AND NON-INFRINGEMENT. IN NO EVENT SHALL
+THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING
+FROM, OUT OF, OR IN CONNECTION WITH THIS SOURCE CODE OR THE USE OR OTHER
+DEALINGS IN IT.
+
+CONTACT
+-------
+For permissions beyond the scope of this license, contact: legal@dextify.org

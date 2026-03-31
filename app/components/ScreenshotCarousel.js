@@ -4,7 +4,7 @@ import { useState, useEffect } from "react";
 
 export default function ScreenshotCarousel() {
   const [currentSlide, setCurrentSlide] = useState(0);
-  const totalSlides = 4;
+  const totalSlides = 3;
 
   const nextSlide = () => {
     setCurrentSlide((prev) => (prev + 1) % totalSlides);
@@ -30,35 +30,27 @@ export default function ScreenshotCarousel() {
           >
             <div className="screenshot-item">
               <img
-                src="/1.png"
+                src="/Screenshot home.avif"
+                alt="VIDYA Home"
+                className="screenshot-image"
+              />
+              <div className="screenshot-caption">Home</div>
+            </div>
+            <div className="screenshot-item">
+              <img
+                src="/Dashboard screenshot.avif"
                 alt="VIDYA Dashboard"
                 className="screenshot-image"
               />
-              <div className="screenshot-caption">Dashboard Overview</div>
+              <div className="screenshot-caption">Dashboard</div>
             </div>
             <div className="screenshot-item">
               <img
-                src="/2.png"
-                alt="Course Management"
-                className="screenshot-image"
-              />
-              <div className="screenshot-caption">Course Management</div>
-            </div>
-            <div className="screenshot-item">
-              <img
-                src="/3.png"
+                src="/Player Screenshot.avif"
                 alt="Video Player"
                 className="screenshot-image"
               />
-              <div className="screenshot-caption">Video Player Interface</div>
-            </div>
-            <div className="screenshot-item">
-              <img
-                src="/4.png"
-                alt="Progress Tracking"
-                className="screenshot-image"
-              />
-              <div className="screenshot-caption">Progress Tracking</div>
+              <div className="screenshot-caption">Video Player</div>
             </div>
           </div>
           <button className="carousel-btn prev-btn" onClick={prevSlide}>

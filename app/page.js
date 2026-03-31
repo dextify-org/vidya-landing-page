@@ -220,24 +220,52 @@ export default function Home() {
                   >
                     DEXTIFY
                   </a>
-                  <a href="#" className="footer-link">
+                  <a href="/about" className="footer-link">
                     About
                   </a>
-                  <a href="#" className="footer-link">
+                  <a
+                    href="https://dextify.org/contact"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-link"
+                  >
                     Contact
                   </a>
                 </div>
 
                 <div className="footer-column">
                   <h4 className="footer-title">Community</h4>
-                  <a href="#" className="footer-link">
+                  <a
+                    href="https://github.com/dextify-org/vidya"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-link"
+                  >
                     GitHub
                   </a>
-                  <a href="#" className="footer-link">
+                  <a
+                    href="https://discord.gg/uavHJumK5v"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-link"
+                  >
                     Discord
                   </a>
-                  <a href="#" className="footer-link">
-                    Twitter
+                  <a
+                    href="https://reddit.com/r/VidyaMedia"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-link"
+                  >
+                    Reddit
+                  </a>
+                  <a
+                    href="https://x.com/vidya_server"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="footer-link"
+                  >
+                    X / Twitter
                   </a>
                 </div>
               </div>

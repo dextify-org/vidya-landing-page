@@ -39,21 +39,18 @@ export default function Downloads() {
                 <div className="subsection">
                   <h5 className="subsection-title">Server</h5>
                   <div className="download-links">
-                    <a href="#" className="download-btn primary">
+                    <a
+                      href="https://github.com/dextify-org/vidya/releases"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="download-btn primary"
+                    >
                       <img
                         src="/github-brands-solid-full.svg"
                         alt="GitHub"
                         className="btn-icon"
                       />
                       GitHub Releases
-                    </a>
-                    <a href="#" className="download-btn secondary">
-                      <img
-                        src="/globe-solid-full.svg"
-                        alt="CDN"
-                        className="btn-icon"
-                      />
-                      CDN Download
                     </a>
                   </div>
                 </div>
@@ -155,7 +152,12 @@ export default function Downloads() {
                 <div className="subsection">
                   <h5 className="subsection-title">Server</h5>
                   <div className="download-links">
-                    <a href="#" className="download-btn primary">
+                    <a
+                      href="https://github.com/dextify-org/vidya-termux"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="download-btn primary"
+                    >
                       <img
                         src="/termux-svgrepo-com.svg"
                         alt="Termux"
@@ -170,7 +172,12 @@ export default function Downloads() {
                 <div className="subsection">
                   <h5 className="subsection-title">Client</h5>
                   <div className="download-links">
-                    <a href="#" className="download-btn primary">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=media.vidya.app"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="download-btn primary"
+                    >
                       <img
                         src="/google-play-brands-solid-full.svg"
                         alt="Google Play"
@@ -186,7 +193,12 @@ export default function Downloads() {
                       />
                       F-Droid
                     </a>
-                    <a href="#" className="download-btn secondary">
+                    <a
+                      href="https://github.com/dextify-org/vidya-app/releases"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="download-btn secondary"
+                    >
                       <img
                         src="/github-brands-solid-full.svg"
                         alt="GitHub"
