@@ -297,7 +297,7 @@ export default function Docs() {
     ports:
       - "31415:31415"
     volumes:
-      - ./vidya-data:/data
+      - ./data:/data
       - /path/to/your/media:/media:ro
     environment:
       - VIDYA_DATA_PATH=/data
@@ -305,7 +305,7 @@ export default function Docs() {
     restart: unless-stopped
 
 volumes:
-  vidya-data:
+  data:
     driver: local`}</code>
           </pre>
 
@@ -319,7 +319,7 @@ volumes:
             <code>{`docker run -d \\
   --name vidya \\
   -p 31415:31415 \\
-  -v ./vidya-data:/data \\
+  -v ./data:/data \\
   -v /path/to/your/media:/media:ro \\
   -e VIDYA_DATA_PATH=/data \\
   -e PORT=31415 \\
@@ -335,7 +335,7 @@ volumes:
             <h4>Volume Mounts</h4>
             <ul>
               <li>
-                <code>./vidya-data:/data</code> — Stores database, settings, and
+                <code>./data:/data</code> — Stores database, settings, and
                 assets (persistent)
               </li>
               <li>
@@ -610,7 +610,7 @@ cd ../..`}</code>
             <code>{`docker run -d \\
   --name vidya \\
   -p 31415:31415 \\
-  -v ./vidya-data:/data \\
+  -v ./data:/data \\
   -v /path/to/your/media:/media:ro \\
   -e VIDYA_DATA_PATH=/data \\
   vidya`}</code>

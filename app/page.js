@@ -220,7 +220,7 @@ export default function Home() {
                   >
                     DEXTIFY
                   </a>
-                  <a href="/about" className="footer-link">
+                  <a href="https://dextify.org/about" className="footer-link">
                     About
                   </a>
                   <a
