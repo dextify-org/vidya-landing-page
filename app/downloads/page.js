@@ -230,6 +230,8 @@ export default function Downloads() {
                   <div className="download-links">
                     <a
                       href="https://apps.apple.com/us/app/vidya-media-server/id6762642422"
+                      target="_blank"
+                      rel="noopener noreferrer"
                       className="download-btn primary"
                     >
                       <img
