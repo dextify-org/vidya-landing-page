@@ -23,7 +23,15 @@ export default function Home() {
               A Media Server for video lectures
             </div>
             <div className="hero-buttons">
-              <button className="demo-button">Demo</button>
+              <button className="demo-button">
+                <a
+                  href="https://demo.vidya.media"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  demo
+                </a>
+              </button>
               <Link href="/downloads" className="download-button">
                 Download
               </Link>
