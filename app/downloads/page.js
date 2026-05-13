@@ -228,7 +228,10 @@ export default function Downloads() {
                 <div className="subsection">
                   <h5 className="subsection-title">Client</h5>
                   <div className="download-links">
-                    <a href="#" className="download-btn primary">
+                    <a
+                      href="https://apps.apple.com/us/app/vidya-media-server/id6762642422"
+                      className="download-btn primary"
+                    >
                       <img
                         src="/app-store-ios-brands-solid-full.svg"
                         alt="App Store"
