@@ -29,7 +29,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                 >
-                  demo
+                  Demo
                 </a>
               </button>
               <Link href="/downloads" className="download-button">
