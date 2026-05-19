@@ -116,28 +116,6 @@ export default function Contact() {
                   <div className="contact-icon">
                     <img
                       src="/globe-solid-full.svg"
-                      alt="Reddit"
-                      className="contact-method-icon"
-                    />
-                  </div>
-                  <h4 className="contact-method-title">Reddit</h4>
-                  <p className="contact-method-description">
-                    Discuss, share setups, and get community support
-                  </p>
-                  <a
-                    href="https://reddit.com/r/VidyaMedia"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="contact-method-link"
-                  >
-                    r/VidyaMedia
-                  </a>
-                </div>
-
-                <div className="contact-method-card">
-                  <div className="contact-icon">
-                    <img
-                      src="/globe-solid-full.svg"
                       alt="X / Twitter"
                       className="contact-method-icon"
                     />

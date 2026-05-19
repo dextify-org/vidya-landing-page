@@ -61,7 +61,6 @@ landing-page/
 
 - **GitHub** — [github.com/dextify-org/vidya](https://github.com/dextify-org/vidya)
 - **Discord** — [discord.gg/uavHJumK5v](https://discord.gg/uavHJumK5v)
-- **Reddit** — [r/VidyaMedia](https://reddit.com/r/VidyaMedia)
 - **X / Twitter** — [@vidya_server](https://x.com/vidya_server)
 
 ## License

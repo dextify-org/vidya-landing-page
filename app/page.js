@@ -260,14 +260,6 @@ export default function Home() {
                     Discord
                   </a>
                   <a
-                    href="https://reddit.com/r/VidyaMedia"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="footer-link"
-                  >
-                    Reddit
-                  </a>
-                  <a
                     href="https://x.com/vidya_server"
                     target="_blank"
                     rel="noopener noreferrer"

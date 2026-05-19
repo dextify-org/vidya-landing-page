@@ -148,26 +148,6 @@ export default function Downloads() {
                   </div>
                 </div>
 
-                {/* Server Subsection */}
-                <div className="subsection">
-                  <h5 className="subsection-title">Server</h5>
-                  <div className="download-links">
-                    <a
-                      href="https://github.com/dextify-org/vidya-termux"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="download-btn primary"
-                    >
-                      <img
-                        src="/termux-svgrepo-com.svg"
-                        alt="Termux"
-                        className="btn-icon"
-                      />
-                      Termux
-                    </a>
-                  </div>
-                </div>
-
                 {/* Client Subsection */}
                 <div className="subsection">
                   <h5 className="subsection-title">Client</h5>
@@ -184,14 +164,6 @@ export default function Downloads() {
                         className="btn-icon"
                       />
                       Google Play Store
-                    </a>
-                    <a href="#" className="download-btn secondary">
-                      <img
-                        src="/Fdroid Logo.svg"
-                        alt="F-Droid"
-                        className="btn-icon"
-                      />
-                      F-Droid
                     </a>
                     <a
                       href="https://github.com/dextify-org/vidya-app/releases"
